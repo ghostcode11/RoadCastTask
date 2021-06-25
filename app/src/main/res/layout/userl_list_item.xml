@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#000"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin = "5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin = "5dp">
+
+        <TextView
+            android:background="#7B8AE0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User Details"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID : 26791"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zipcode : 544"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zipcode : 544"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zipcode : 544"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zipcode : 544"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zipcode : 544"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+<View
+    android:background="#B1ABAB"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin = "5dp">
+            <TextView
+                android:background="#7B8AE0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Address Details"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/tv_street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID : 26791"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_suite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zipcode : 544"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zipcode : 544"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/tv_zipcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zipcode : 544"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/tv_geo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zipcode : 544"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <View
+            android:background="#B1ABAB"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin = "5dp">
+
+            <TextView
+                android:background="#7B8AE0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Company Details"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/tv_cname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID : 26791"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_catch_phrase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zipcode : 544"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/tv_bs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zipcode : 544"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
